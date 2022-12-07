@@ -12,7 +12,7 @@ const pola = (number) => {
     }
     console.log(pattern);
   }
-  for(let m = number; m >= number; m--){
+  for(let m = number; m >= 0; m--){
     let pattern
     for(let n = number; n > m; n--){
       pattern += ' ';
@@ -28,4 +28,4 @@ const pola = (number) => {
 
 }
 
-pola(5)
+pola(10)
