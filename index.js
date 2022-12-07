@@ -25,7 +25,6 @@ const pola = (number) => {
     }
     console.log(pattern);
   }
-
 }
 
-pola(10)
+pola(3)
